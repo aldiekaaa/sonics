@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+
+@layer utilities {
+    .navbar-scroll {
+        @apply shadow-lg;
+        position: fixed;
+        z-index: 50;
+        backdrop-filter: blur(4px);
+    }
+}
